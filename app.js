@@ -23,10 +23,12 @@ btn.addEventListener("click", async () => {
 
   if (country.value === "Select a country") {
     console.log("Please select a country!!");
-
     span.innerText = "Please select a country!!";
   }
-  imgid.alt = "Loading flag...";
+
+  if (!(country.value === "Select a country")) {
+    imgid.alt = "Loading flag...";
+  }
 
   let apiurl = await axios(apiUrl);
   let allObject = apiurl.data.data;
@@ -37,7 +39,7 @@ btn.addEventListener("click", async () => {
 
   if (findFlag) {
     imgid.src = findFlag.flag;
-
+    imgid.style.border = "4px solid #ffffff";
     imgid.style.height = "150px";
   }
 });

@@ -37,3 +37,5 @@ Open index.html in your browser.
 
 # 👤 Author
 Anil Kumar LinkedIn: @anilmonitorr | IG: @anilmonitor Passionate Web Developer 🚀
+
+**Made with ❤️ by [Anil Kumar](https://www.linkedin.com/in/anilmonitorr)**  
